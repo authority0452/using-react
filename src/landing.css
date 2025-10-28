@@ -1,0 +1,58 @@
+.landing-container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  position: relative;
+  padding: 100px 20px;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn.login {
+  background: #fff;
+  color: #2563eb;
+  margin-right: 10px;
+}
+
+.btn.signup {
+  background: #1e40af;
+  color: white;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #f9fafb;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #555;
+}
